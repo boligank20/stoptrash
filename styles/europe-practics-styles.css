@@ -1,0 +1,235 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+hr {
+    display: block;
+    width: 100%;
+    height: 1px;
+    margin: 40px 0;
+
+    border: 0;
+    background-color: #e5e5e5;
+}
+
+/* Container */
+.container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Intro */
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 70vh;
+
+    background: url("../img/intro.jpg") center no-repeat;
+    background-size: cover;
+}
+
+.intro-inner {
+    width: 100%;
+    max-width: 1250px;
+    margin: 0 auto;
+}
+
+.intro-title {
+    color: #fff;
+    font-size: 80px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 1;
+}
+
+.intro-title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+
+    background-color: #fff;
+
+    margin: 40px auto;
+}
+
+/* Header */
+.header {
+    width: 100%;
+    padding-top: 30px;
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+}
+.header-logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+/* Section */
+.section {
+    padding: 80px 0 0;
+}
+
+.section-header {
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+
+    text-align: center;
+}
+.section-title {
+    font-size: 50px;
+    font-weight: 700;
+    color: #333;
+    text-transform: uppercase;
+}
+
+.section-title:after {
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    margin: 40px auto 40px;
+
+    background-color: #efbc75;
+}
+.section-text {
+    color: #999;
+    font-size: 15px;
+
+    text-align: center;
+}
+.section-list {
+    text-align: left;
+    color: #999;
+}
+
+/* Germany */
+.germany-inner {
+    text-align: center;
+}
+.germany-title {
+    text-align: center;
+}
+.german-img img {
+    margin: 0 auto;
+}
+
+/* France */
+.france {
+    padding-top: 30px;
+}
+.france-inner {
+    text-align: center;
+}
+.france-title {
+    text-align: center;
+}
+.france-img {
+    margin-bottom: 30px;
+}
+
+/* Practics */
+.practics {
+    background-color: #aeca98;
+}
+.practic {
+    display: flex;
+    align-items: center;
+}
+.practic-item {
+    flex: 1 1 0;
+
+    border-left: 1px solid #b5eae0;
+
+    text-align: center;
+    color: #fff;
+
+    padding: 70px 25px;
+}
+.practic-item:last-child {
+    border-right: 1px solid #b5eae0;
+}
+.practic-href {
+    font-size: 20px;
+    text-transform: uppercase;
+
+    text-decoration: none;
+    color: #fff;
+
+    transition: color .2s linear;
+}
+.practic-href:after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 3px;
+    display: none;
+
+    background-color: #fce38a;
+
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1;
+}
+.practic-href:hover {
+    color: #fce38a;
+}
+
+/* Footer */
+.footer {
+    background-color: #0e2c40;
+    padding-top: 40px;
+    padding-bottom: 15px;
+    
+    text-align: center;
+}
+.footer-to-start {
+    font-size: 20px;
+    color: #fff;
+    text-decoration: none;
+
+    margin-bottom: 30px;
+
+    transition: color .2s linear
+}
+
+.footer-to-start:hover {
+    color: #fce38a;
+}
+.footer-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}
+.footer-logo {
+    font-size: 30px;
+    font-weight: 700;
+    color: #fff;
+}
+.copyright {
+    color: #fff;
+}
